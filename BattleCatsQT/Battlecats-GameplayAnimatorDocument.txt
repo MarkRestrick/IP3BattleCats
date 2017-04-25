@@ -1,0 +1,16 @@
+
+Integer		Number	Trigger		Animation
+Idle		1	IdleStart	Sitting
+Idle		2	IdleStart	LookingAroundStandingUp
+Idle		3	IdleStart	ButtWiggle
+ActionNoMove	11			FallingAsleep
+ActionNoMove	12			MessingAround
+ActionNoMove	13			Playing
+ActionMove	21			UninterestedWalk
+ActionMove	22			LazyWalk
+ActionMove	23			Jump
+ActionMove	31			NormalWalk
+ActionMove	33			HappyWalk
+
+			Win		Winning
+			IdleEmergency	Sitting

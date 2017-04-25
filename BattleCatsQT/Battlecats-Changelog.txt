@@ -1,0 +1,617 @@
+BATTLECATS
+DEV DOCUMENTATION
+
+|| V051		11/4/2017	Juha
+=======================================
+- Win animation added, plays with trigger Win in gameplayanimator
+	- This should be set up since GPW
+- ScreenFX blinking fixed
+
+
+
+
+
+|| V049		8/4/2017	Juha
+=======================================
+- Animations updated & added to gameplay animator
+- Cat shine fixed (material added on container cat models)
+- Tap brightens earlier
+- Slider background updated
+- Level selection icons now blue
+- Screen darkening on gameplay is now part of screenFX, should eliminate some lag
+- New cat skins added, found in Resources
+
+|| V049b	9/4/2017	Juha
+=======================================
+- Known bugs:
+	- GameplayAnimator: Doesn't play bad animations (non-advancing)= laying down, buttwiggle etc.
+	- Slim cat's feet go through floor. Unfixable, would need remodelling and rerigging the model
+	- New cats have mirrored UVs, old texture maps might look weird, needs quite a lot work.
+	( FIXED - ScreenFX blinks for unknown reason, probably tied to animator.)
+	- Cat neck objects are clipping quite often in animations
+		- would need some translate tuning for catnecklocatorobjects for all models
+	- Eyes react to light weirdly, for unknown reason. Maybe related shader or lights.
+
+
+
+|| V047		29/3/2017	Juha
+=======================================
+
+- Resources CatModels	(Containers in order of Pricing)
+	CatContainer1	= Standard
+	CatContainer2	= Slim
+	CatContainer3	= Evil
+	CatContainer4	= Short
+	CatContainer5	= Elegant
+	CatContainer6	= Fat
+
+
+	* CatNeckObjectLocator, CatHeadObjectLocator, NameHolderObject, PhysCamera001.Target
+		Added under each cat model
+	* Runs GamePlayAnimator (which will be updated with rest of animations later)	
+	* New cats do not have any assigned texture, but spawner handles this anyway?
+	* Original CatContainer had CatPointerScript, but this is not added in new containers
+	
+
+
+|| V046		29/3/2017	Mark
+=======================================
+- All previous conflicts resolved
+- Online user accounts created
+- All details (Cats, skins, head items etc) stored online, retrieved on game launch for user
+- Exitting store currently saves all options (Currency, unlocks, cat setups)
+- User accounts persist between playthroughs
+
+|| V044		25/3/2017	Juha
+=======================================
+
+- Old animator is now CatGameplayAnimator_OldBackup
+- New one is copy of that, but plays animations as following
+	All idles: Idle
+	All non-moving: Jump
+	All mid tier moving: WalkLazy
+	All top tier moving: Walk
+- Cat Prefabs in folder Prefabs\Actors\
+	- CatModel_Elegant
+	- CatModel_Evil
+	- CatModel_Fat
+	- CatModel_Short
+	- CatModel_Slim
+	- CatModel_Standard	* Runs GameplayAnimator for test purposes in menu
+- None of the old cat animations / models / prefabs work anymore, needs to be replaced with new ones
+- Avatar change can also work for changing cat model, instead of prefab for everything.
+- Updated target graphics and animations
+- Updated main menu art
+- Score has soft currency script, which should be replaced
+- Feedback explosions changed to size 80 from 100 to help with screen clutter
+- Darkening added to screen during gameplay, this will be combined to ScreenFX later, if it looks ok
+
+
+Changelog
+------------------
+|| V037		18/2/2017	Juha
+=======================================
+- ScreenFX rework, should be less laggy now
+
+
+
+|| V036		17/2/2017	Mark
+=======================================
+- Input rework
+
+
+|| V036		11/12/2016	Juha
+=======================================
+- Returns from gameplay to mainmenu instead of splashscreen
+- splash screen button scaling improved
+- happyWalk sliding should be fixed
+- main menu camera zoom doesn't work
+
+
+
+|| V035		11/12/2016	Mark
+=======================================
+- Friend cat implemented on main menu
+- Messed around with camera position on main menu to take off the roof,
+allowing more light in, still doesn't look quite right.
+
+
+|| V034		10/12/2016	Mark
+=======================================
+- Login with facebook should now work with anyone, not just Mark
+- Tutorial shouldn't freak out if a section repeats too much
+
+
+|| V033		09/12/2016	Mark
+=======================================
+- Tutorial Implemented
+	- Follows script outlined by Kristy
+- Store button images updated to match trailer
+
+
+|| V032		08/12/2016	Juha
+=======================================
+- Neck problem fixed
+- Unused screenfx layers deleted (not changed to single layer yet)
+
+
+|| V031		06/12/2016	Juha
+=======================================
+- Minor adjustments on art objects
+- New LevelCompletePanel on Gameplay scene
+	- score & perfect etc texts
+	- buttons to go to menu, or replay
+		- goes now to main menu room
+		- there's some out-commented code to go directly to MainMenu difficulty from gameplay
+			- MainMenuScript Start()
+			- uses GameOptions object to carry over if returning from gameplay
+	- all hits should be now shown or Perfects, misses on Misses with percentage on both
+		- Misses calculation is now dodgy, should probably be int instead of float
+
+- Friend room in main menu
+	- choosing a friend activates another camera in RoomFriend gameobject
+	- needs a cat!
+
+
+
+
+|| V030		04/12/2016	Mark
+=======================================
+- Head/Collar items moved to resources folder, will now be called
+when needed
+	- Position/Rotation is messed up, can be seen by changing
+	the values in the PlayGuestButtonScript, needs work to figure out
+		- Might require a script per object to store the transform
+		of each object as intended
+
+|| V029		04/12/2016	Juha
+=======================================
+- New hold with distinct appearance, bit experimental graphicswise
+	- Old prefab saved as ClickHoldBFingerBackup
+- Play menu polished
+- Main menu scaling should work now on devices
+- Animator transitions updated to go both directions
+	- IdleEmergency trigger for animator code failing
+	- IdleStart only for normal transitions
+- Neck and head items prefabbed
+	- Prefabs\CatItems\
+
+
+
+|| V028		03/12/2016	Mark
+=======================================
+- Performance Optimisation
+	- All redundant calls in scripts removed
+		- Every empty start/update method removed
+		- Several redundant calls removed, but they're a lot harder to track down so probably
+		still a few left
+	- Graphics quality reduced across the board slightly
+		- Less distinct shadows
+		- No reflections (Don't think we were using them anyway?)
+		- Texture resolution reduced
+	- Debugging tools added
+		- FPS counter
+		- Cat spawner
+		- In the main menu, but disabled within build
+
+
+|| V027		01/12/2016 	Mark
+=======================================
+- Random challenger spawner implemented
+	- Basically generates a random cat for the throne
+- New cat implemented throughout the game
+	- Eye/Eyelids adjustment
+	- Animator fixes
+- Minor game tweaks
+	- Buttons are now slightly more generous with the perfect timing
+
+
+|| V026		30/11/2016 	Juha
+=======================================
+- New stuff to use:
+	- Cat Resized:	CatContainer (includes latest CatModelNS)
+	- Cat Model:	CatModelNS
+	- Animator:	CatGameplayAnimator
+	- Neck items parented under: CatNeckObjectLocator
+	- Head items parented under: CatHeadObjectLocator
+
+- New cat model is smaller than earlies, and needs its parent to be scaled up 1.4 to match earlier cat
+
+- New Animator logic. I will build better one on IP3, I have an idea for it, but this should do for now
+	CatMovementTestScript:
+        /* HOW ANIMATOR WORKS:
+         * Currently the idea is that playerCatInspiration would push the animations on better tiers
+         * 1-3 being Idles 1: uninterested cat, 2: medium, 3: interested
+         * 11-13 Non-advancing actions with low player performance - i.e. player dropping in level sets
+         * 21-23 Advancing actions with medium player performance - i.e. player staying at same level sets
+         * 31-32 Advancing actions with good player performance - i.e. player going up in level sets
+         * 
+         * No matter how the numbers are formed, but animator will now follow these numbers.
+         * After each movement cycle cat will return to similar catInterest idle. 1: uninterested, 2: sitting, 3: excited (buttwiggle atm)
+         */
+
+- Animator _should_ work, but this can really be tested when correct cat is spawned
+	- if not, getting correct numbers at correct time will be the problem
+
+- Blue and Pink room items prefabbed
+	- BlueRoomFull and PinkRoomFull prefabs should be used for now instead of individual items
+
+- GUI\Store\ folder has test images for cat skin store
+
+- Menus have animated panels, hopefully they won't cause performance drops
+	- UI scaling looks weird on my tablet, probably on phone too. I will adjust this later.
+
+
+
+|| V025		29/11/2016 	Mark
+=======================================
+- Auto-Creating Store Expansion
+	- Now works for head/collar items
+	- Functionally identical to the skin system, just changed to accomodate
+	collar/head items
+	- Some mega palceholder stuff in to create the menus, you'll see when you click it
+	- This still requires locator objects on the catobject in the resources folder
+	before I can actually make the items physically equip, currently it just sets it
+	up in the stablescript/inventory script, which the spawnscript will use to make 
+	the magic happen
+- Cat Spawner Tweaks
+	- Now conditionally activates nameplates
+		- Currently mainmenu bool = on, any other off
+	- Bug fix where a cat being worked on by the store would permanently delete itself
+- Running Game Fixes
+	- Intro scoreboard now grabs the cat's name (RIP Mittens)
+	- Level 8 sets recovered from v18 (Think we just sharded the project at some point,
+	like this version of the changelog doesn't have the bit with Kristy adding stuff in)
+
+
+
+
+|| V024		27/11/2016 	Mark
+=======================================
+- Auto-Creating Store
+	- Looks in the resources folder for skins and for skin images
+	then builds a panel ouf of what's there
+	-Might need one folder per cat per section as it is currently, but it works
+	-Currently takes one image (using the cat texture as a sprite currently) and
+	one texture to make a button that can be clicked to purchase an unowned skin,
+	or if it's owned equip it to the current cat
+- Cat spawner can now delete the cat it spawns
+	- Used to "refresh" the cat when a cosmetic change has occured (ie equipping a skin)
+- Game no longer freaks out if you do too well
+	- ie you can play it on hard and not have it crash after 2 sets
+- Some holdover bug fixes (ie currency display uses the new system instead of the old one)
+
+|| V023		26/11/2016 	Juha
+=======================================
+- LoadingScreenPanel prefab added under Prefabs\GUI\
+	- Will fade in when activated, then loop flashing "Loading" text
+	- Optional fade out with trigger "loadingScreenEnd"
+- FadeInPanel prefab added
+	- Automatically fades in from black screen
+	- Has to be top panel in canvas
+- CatModel's eyes parented again under bones, should get the spawned back to semi-fixed state (eyes not rotating still)
+	- Spawner needs to load Prefabs\Actors\CatModel.prefab
+	- This is the old one, as new skinned cat and animations need more mystery solving
+- New cat animation fixes are worked mainly under ArtTest
+- ScreenFX works now without destroying fps! Rebuilt as Sprites instead of UI images
+- Ingame UI changed
+	- Menu buttons toggled with "?" Button
+- Tap button highlighted more on perfect
+
+
+
+|| V022		24/11/2016	Mark
+=======================================
+- Spotlight/Camera now are childed under the cat prefab that is created in running level
+- Each level with a cat spawn of any kind requires the main camera for that
+	level to be tagged with the "LevelCam" tag, it's used to orient the text above them
+- Cat spawned after the first one now no longer inherit the behaviour/attributes of the first
+	one spawned in that scene
+- Difficulty algorithm modified
+	- Now takes into account if you aced two sections in a row
+		- e.g. do well on first, go up one, do well on second, game recognises it and
+		advances you up two levels instead of just one
+- Start of the store button thing created
+	- There's a game object in Resources/Store, that's what you want to save your panel to
+	There's already a script to create one of them per object and then we just need a panel
+	to assign them to in the main menu that has auto sorting on it
+
+|| V021		20/11/2016	Mark
+=======================================
+- Old buttons are now properly on top of new ones (ie overlaps work)
+	- Level set instantiates in reverse order now, meaning the first buttons are on
+	the bottom in the canvas, and therefore on top
+- Difficulty AI is in
+- Code Tidyup
+	- Most of the alerts in unity have been taken care of to get rid of that spam
+	- Some legacy items from the very first prototypes removed
+- Facebook integration
+	- Currently not super functional, grabse facebook name and user id and stores them,
+	but does not save them between plays
+- All the presets are gone
+	- All hail our illustrious new leader the cat spawner object
+		- Make an empty object wherever you want the cat to be, attach CatSpawnerScript
+		Set up the variables (Own Cat, friend cat, challenger cat etc) and what level it's in
+		And then when that scene is loaded the appropriate cat will be loaded
+- New player data hookup
+	- Player data is stored in 3 (or 4?) scripts attached to a gamedataobject that is part of
+	the splash screen, this data is used to create the player's cat at runtime
+	tl;dr we can actually build cats instead of relying on one being made in the unity editor
+
+|| V020		17/11/2016	Juha
+=======================================
+- SplashScreen added
+- Main Menu with room
+- MenuCamera is not really working, three versions of camera targeting tried
+	- All of those are in the script commented out
+	- Vector3 is fucked up for targeting
+- Customize button opens side menu with Skin, Head and Neck buttons
+	- Should also zoom camera CameraZoomToggle in MenuCamera's script
+	- And when targeting works, aim at your cat
+- Lights for MainMenu didn't load correctly when coming from SplashScreen
+- Tutorial taken off for now, game goes directly to play
+
+
+
+|| V019		13/11/2016	Juha
+=======================================
+- Canvas > ScreenFXPanel added for screen border combo effects
+	- may cause performance issues, and needs testing
+		- added button to toggle on/off
+	- gets player combo from gamedata, changes it to float and sends to Animator on update
+		- could be something more sophisticated which would send data to animator only
+			when required combo is gained.
+- Feedback explosion added
+- Slider feedback is in correct rotation now
+- Slider hit quality is required, now either perfect or bad
+
+- Short Slider "ClickDragShort" prefab added
+	- this one is with mouse aesthetics
+- Octagonal Hold variant "ClickHoldOct" prefab added
+
+- Cat's eyes fixed
+- Cat movement options added
+	- Now just randomizes between 1-3 idles and moves
+
+!!! IMPORTANT
+- Basic ClickHit and ClickHoldB prefab scale now 1.4 for testing purposes
+	- Might fuck up levels, but needs to be tested for the small screen problem
+
+
+
+|| V018		11/11/2016	Mark
+=======================================
+- Sliders now work (mostly) as they should in the final game
+	- I need to find something more productive to do with my Friday nights
+
+|| V017		10/11/2016	Mark
+=======================================
+- First pass on audio, BGM for menu/gameplay, audio for all game pieces, audio for 
+	most, but not all menu buttons
+- Medium difficulty added and turned on
+- Had to mess with difficulty selection screen to add button for medium difficulty, as
+	a result the anchors probably need to be fixed on that menu, didn't want to
+	mess with it too much
+
+|| V016		06/11/2016	Kristy
+=======================================
+
+- Mark helped fix dat bug oh shit waddup
+	- Something about arrays not working properly so the difficulty wouldn't change
+I don't know it's fixed anyway
+
+
+|| V016		02/11/2016	Mark
+=======================================
+- NO MORE NESTED PREFAAAAAAAAAABS WOOOOOOO
+	- Okay Seriously though
+- Level sets are now defined in a LevelSetContainer script, attached to a GameObject and is
+instantiated in the same way the previous nested prefabs were
+	- I'm not actually sure why but it actually fixed a lot of the scaling issues
+
+|| V015		30/10/2016	Mark
+=======================================
+- Some level sets fixes
+	- All the drag ones weren't reporting properly, the feedback got muddled
+- Cat walk fix
+	- It's been broke since implementation, now is not (If statement fix)
+- Cat now appropriately switches animations
+	- Walks when moving, chills when... Chilling
+- Game pieces now properly report global game stats to the data object
+	- No more constant 0% success rate!
+- Messed around with the currency text to make it display better
+
+
+
+|| V014		30/10/2016	Juha
+=======================================
+- Added LevelIntroObject with animated camera, worldspace UI
+	- Could be disabled if started from in game Dev restart
+- Added countdown on main UI
+- Slider speed adjusted back to 50 and target closing in circle speed increased
+- Tutorial added to Mainmenu
+	- Could have bool to state if the tutorial is watched once, needs to be in gameoptions
+	- Only appears from Play, not from Challenge
+- Adjusting on target animations
+
+- Cat walk animation doesn't end
+	- Needs to set animator "Walking" false when movement ends. Now it starts in CatMovementScript, but I didn't find placement for code to stop this
+
+- Sliders are hard, and almost always break combo
+	- Feels like they still do not have time to get to the end
+	- Might be that the new object is slightly longer so speed 50 isn't enough for the time it's on screen
+
+
+|| V013		28/10/2016	Mark
+=======================================
+!!!IMPORTANT!!!
+- A dependancy has been created, a gameoptions object must exist in most scenes
+	- Created in Main Menu scene, is never deleted
+	- If testing a specific scene, you must manually create a game object,
+	tag it as a GameOptions, and add the GameOptionsScript to it
+!!!IMPORTANT!!!
+
+- Game now ends after 6 sets have been played out
+	- Awards money as if it was completed on normal, for Monday
+	
+- Cat Skin Customization in
+	- Really ghetto menus in the customization screen
+	- New script attached to gameoptions object, tracks unlocked skins and eqipped skin
+	- Cat uses the selected skin on load
+- Currency system implemented
+	- Text objects added to main menu and customization screen to display current currency
+		- Script attached to each of these to update them
+		- Actual value stored in game options object
+- Manually recreated most of the Level Sets
+	-Couldn't import them as I'd hoped, had to manually redo, fuck my life :(
+
+
+|| V012		27/10/2016	Juha
+=======================================
+- New slider: ClickDragHoriB
+	- Old one is still there, and can be deleted when we're sure new one works
+	- Graphics updated for the slider, needs fixing again
+	- Doesn't score or get destroyed when at end
+	- Lowered slider speed to 40 to get it closer to circle closing in speed
+		- Doesn't have time to end track before destroyed because of this
+- New hold: ClickHoldB
+	- Should be working perfectly
+	- Animation pauses when released
+- Basic tap button got animation and graphics updates. Old prefabs should work as before.
+
+- Set piece: SliderTest has now new pieces and it is set to Level 2 difficulty
+- CAT MOVEMENT!
+	- Sets animator boolean "Walking" true on CatMovementTestScript when gamemanager.Advance
+	- Needs to set "Walking" false when movement ends
+	- Yep, cat loses his eyes when walking. He has parenting issues. Will look into it more.
+- Hat locator works. The CatHatCone object can be set inactive if it's annoying
+- Added Friends screen with challenge leading to gameplay
+	- going back from friends to menu goes to start of menu instead of friend list
+	- quick and dirty again, will fix later
+- Customize screen is copy of friend screen at, will work on later
+
+
+|| V011		25/10/2016	Mark
+=======================================
+- Random difficulty gneration and selection implemented
+- Goddamned slider hopefully fixed again >_<
+	- Keeps losing the feedback object, the piece of crap
+
+
+|| V010		24/10/2016	Mark
+=======================================
+- Feedback object applied to sliders
+	- Applies inverse rotation to the object on activation (Otherwise the feedback comes up invisible etc)
+- Minor timing tweaks to some of the objects
+
+|| V009		23/10/2016	Mark
+=======================================
+- Three sets made for Monday
+- Slider object tweaked slightly
+	- Slide speed increased
+	- Touch detection size increased
+- Set size expanded to 10 seconds
+
+
+|| V008		23/10/2016	Mark
+=======================================
+- I should fill this in as I work
+- Weird scaling with prefabs instantiated in Canvas fixed
+	- Scaling forced to 1 during instantiating
+	- If something like this occurs in the future don't try to fix it, workarounds cause issues
+	in this case the feedback text vanished when the scaling issue was fixed because it had been
+	rigged to be way bigger to display with the bug, then going to nothingness when bug fixed
+	- All the old prefabs for levels are hence broken, and we should really investigate a way
+	to push hotfixes to all existing prefabs, preliminary research suggests it's not supported, which is troubling
+	since we're currently so reliant on nested prefabs. Will be less of an issue when we finalise buttons I guess.
+- Scoring system implemented
+- Cat movement implemented
+	-Not sure what to do when it gets to the end of the level, currently game continues and cat stays still
+- UI in game updated to display relevant scores
+- General fixes to clickables (ie slider speed, score modifications)
+
+
+|| V007		22/10/2016	Juha
+=======================================
+- Hold feedback animation fixed, and more problems caused doing that
+	- Original level section prefabs are now weirdly small, spawned at Scale 0.11~something
+	- New level prefab Level2Test1 has all the feedback animations working
+		- scale needs to be 10 for the prefab to look correct
+			- this is rather awkward, seems to be related to 0.11 scale thing
+	- Changed hold prefabs transforms to zero, they were before:
+		* clickhold: pos x -7.26
+		* holdbutton pos x 6.77 pos y -3.77
+		- this caused feedback to spawn weirdly
+- Badly coded main menu added
+	- Customizing should probably be its own scene
+	- Options and other stuff can be done as panels in MainMenu scene
+- Test cat movement, camera, lighting, materials added
+	- cat goes slowly between two checkpoints
+- Slider had weird rotations and transform changes inside
+	- changed now that everything is correct when the slider points right
+	- rotating object for gameplay should be done byt changing Z on ClickDragHori
+- Slider speed is super slow
+	- probably related to scaling?
+- !!!!! When new level prefab is made under GameManagerObject it needs to be Scale X1, Y1
+		- when the prefab is ready it needs to have scale x10, y10
+		- if the level prefab is adjusted under gamemanagerobject, it needs to be set again x1, y1
+- scene GamePlay and MainMenu are the current ones
+	- main menu script and button functions as component of Canvas
+
+
+|| V003		21/10/2016	Mark
+=======================================
+- Multi-Touch input is now working as intended (Goddamn, finally)
+- Game Manager system created
+	- Sets of gamepieces are combined into prefabs (ie Level2Set1)
+	- These prefabs are entered into the appropriate Array on the Game Manager object
+	- Every X seconds (Arbitrary assignable value on the object) the Game Manager will generate a
+	new section of play
+	- Currently makes a new section every 4 seconds, each section takes about 3 seconds to complete
+	- Most of the game piece prefabs (Click hit, hold, slide) had to be updated to use the new system,
+	as far as I can tell currently it's all working correctly.
+	- Currently restricted to level 2 difficulty (of 3)
+
+|| V003		18/10/2016	Mark
+=======================================
+- Sliders Fixed - Speed variable (located inside Button child) was changed, may have been me when I was 
+  messing around with stuff for V001
+- Target circle set to child of the clickable button (Makes it follow it's active/inactive rules)
+- Feedback prefab linked to ClickHits (Starts as inactive, is activated with either Good or Miss set to true)
+	- Feedback object contains the kill command for the object, with an adjustable timer 
+          (Moved from the button)
+- Reorganised Scripts into relevant folders (was getting messy)
+- Implemented Raycast detection for buttons (Basically ability to tell where someone has clicked/touched)
+	- Slide and Hold objects now properly ensure the player keeps their fingers on the button
+
+
+
+!! V002		17/10/2016	Juha
+=======================================
+- TestingScene_edit, is with latest changes
+- InGameButtonScript controls the UI Canvas buttons Reload & Quit
+	- This script is a component in Canvas > Canvas-buttons
+- ModifySpeedUIVerScript controls the difficulty buttons
+	- may not work correctly
+	- uses public void SpeedChange OnClick() (in unity inspector)
+- Added GamePanel under Canvas, GamePieces childed under this [is this the correct vocabulary btw] [Gotchu fam]
+	- this may or may not be a reason for slider bug
+	- this panel is to help scaling, might be unnecessary, but it would be good to have it, unless it causes problems
+- Added Gameplay Layer for all gameplay elements
+	- Camera renders only this layer
+	- LevelCamera renders everything
+	- UI Layer reserved for stuff which is not part of gameplay
+- All code changes by Juha commented with //JS at the end of line for easier bug hunting :)
+- ClickHit prefab now has TargetCircle prefab as a child
+	- This gameobject holds the graphics, animations etc.
+	- Is set active in code ObjectActivateScript
+		- on update added: artObject.SetActive(true); //JS
+		- may or may not be the reason for slider bug
+			- hold and slider do not have yet art object attached
+	- ClickHit button has now GotClicked OnClick() (inspector)
+		- at the moment this doesn't do anything, hit is apparently registered with OnPointerDown?
+	- ClickHit Sprite Renderer is inactive for default, may be set active for dev purposes. Should be inactive for actual game.
+
+- ClickObjectScript has to instantiate HitFeedbackArt, see the script for comments
+
+

@@ -1,0 +1,629 @@
+fileFormatVersion: 2
+guid: 492ba503ab29c2d4b8ff220dd41d0a2a
+timeCreated: 1491906013
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cat_SuperMover_Ctrl
+    100002: Cat_SuperMover_Ctrl_Auto
+    100004: Cat_SuperMover_Ctrl_Offset
+    100006: //RootNode
+    100008: EyeTarget_auto
+    100010: EyeTarget_ctrl
+    100012: EyeTarget_offset
+    100014: Head_ctrl
+    100016: Head_ctrl_auto
+    100018: Head_ctrl_offset
+    100020: Head_jnt
+    100022: HeadEnd_jnt
+    100024: Hip_ctrl
+    100026: Hip_ctrl_auto
+    100028: Hip_ctrl_offset
+    100030: Hip_jnt
+    100032: IK_Ctrl_grp
+    100034: JawA_ctrl
+    100036: JawA_ctrl_auto
+    100038: JawA_ctrl_offset
+    100040: JawA_jnt
+    100042: JawEnd_jnt
+    100044: L_BackLegAnkle_jnt
+    100046: L_BackLegEnd_jnt
+    100048: L_BackLegLower_jnt
+    100050: L_BackLegToes_jnt
+    100052: L_BackLegUpper_jnt
+    100054: L_EarA_ctrl
+    100056: L_EarA_ctrl_auto
+    100058: L_EarA_ctrl_offset
+    100060: L_EarA_jnt
+    100062: L_EarB_ctrl
+    100064: L_EarB_ctrl_auto
+    100066: L_EarB_ctrl_offset
+    100068: L_EarB_jnt
+    100070: L_EarEnd_jnt
+    100072: L_Eye_jnt
+    100074: L_EyeEnd_jnt
+    100076: L_EyeTarget_auto
+    100078: L_EyeTarget_ctrl
+    100080: L_EyeTarget_offset
+    100082: L_FrontLegAnkle_jnt
+    100084: L_FrontLegEnd_jnt
+    100086: L_FrontLegLower_jnt
+    100088: L_FrontLegToes_jnt
+    100090: L_FrontLegUpper_jnt
+    100092: L_Lowerlid_ctrl
+    100094: L_Lowerlid_ctrl_auto
+    100096: L_Lowerlid_ctrl_offset
+    100098: L_Lowerlid_jnt
+    100100: L_LowerlidEnd_jnt
+    100102: L_Upperlid_ctrl
+    100104: L_Upperlid_ctrl_auto
+    100106: L_Upperlid_ctrl_offset
+    100108: L_Upperlid_jnt
+    100110: L_UpperlidEnd_jnt
+    100112: NeckA_ctrl
+    100114: NeckA_ctrl_auto
+    100116: NeckA_ctrl_offset
+    100118: NeckA_jnt
+    100120: NeckB_ctrl
+    100122: NeckB_ctrl_auto
+    100124: NeckB_ctrl_offset
+    100126: NeckB_jnt
+    100128: NeckC_ctrl
+    100130: NeckC_ctrl_auto
+    100132: NeckC_ctrl_offset
+    100134: NeckC_jnt
+    100136: Nose_ctrl
+    100138: Nose_ctrl_auto
+    100140: Nose_ctrl_offset
+    100142: Nose_jnt
+    100144: NoseEnd_jnt
+    100146: R_BackLegAnkle_jnt
+    100148: R_BackLegEnd_jnt
+    100150: R_BackLegLower_jnt
+    100152: R_BackLegToes_jnt
+    100154: R_BackLegUpper_jnt
+    100156: R_EarA_ctrl
+    100158: R_EarA_ctrl_auto
+    100160: R_EarA_ctrl_offset
+    100162: R_EarA_jnt
+    100164: R_EarB_ctrl
+    100166: R_EarB_ctrl_auto
+    100168: R_EarB_ctrl_offset
+    100170: R_EarB_jnt
+    100172: R_EarEnd_jnt
+    100174: R_Eye_jnt
+    100176: R_EyeEnd_jnt
+    100178: R_EyeTarget_auto
+    100180: R_EyeTarget_ctrl
+    100182: R_EyeTarget_offset
+    100184: R_FrontLegAnkle_jnt
+    100186: R_FrontLegEnd_jnt
+    100188: R_FrontLegLower_jnt
+    100190: R_FrontLegToes_jnt
+    100192: R_FrontLegUpper_jnt
+    100194: R_Lowerlid_ctrl
+    100196: R_Lowerlid_ctrl_auto
+    100198: R_Lowerlid_ctrl_offset
+    100200: R_Lowerlid_jnt
+    100202: R_LowerlidEnd_jnt
+    100204: R_Upperlid_ctrl
+    100206: R_Upperlid_ctrl_auto
+    100208: R_Upperlid_ctrl_offset
+    100210: R_Upperlid_jnt
+    100212: R_UpperlidEnd_jnt
+    100214: SpineA_ctrl
+    100216: SpineA_ctrl_auto
+    100218: SpineA_ctrl_offset
+    100220: SpineA_jnt
+    100222: SpineB_ctrl
+    100224: SpineB_ctrl_auto
+    100226: SpineB_ctrl_offset
+    100228: SpineB_jnt
+    100230: SpineEnd_jnt
+    100232: Tail_CRV
+    100234: TailA_jnt
+    100236: TailB_jnt
+    100238: TailC_jnt
+    100240: TailD_jnt
+    100242: TailE_jnt
+    100244: TailEnd_jnt
+    100246: TongueA_ctrl
+    100248: TongueA_ctrl_auto
+    100250: TongueA_ctrl_offset
+    100252: TongueA_jnt
+    100254: TongueB_ctrl
+    100256: TongueB_ctrl_auto
+    100258: TongueB_ctrl_offset
+    100260: TongueB_jnt
+    100262: TongueEnd_jnt
+    400000: Cat_SuperMover_Ctrl
+    400002: Cat_SuperMover_Ctrl_Auto
+    400004: Cat_SuperMover_Ctrl_Offset
+    400006: //RootNode
+    400008: EyeTarget_auto
+    400010: EyeTarget_ctrl
+    400012: EyeTarget_offset
+    400014: Head_ctrl
+    400016: Head_ctrl_auto
+    400018: Head_ctrl_offset
+    400020: Head_jnt
+    400022: HeadEnd_jnt
+    400024: Hip_ctrl
+    400026: Hip_ctrl_auto
+    400028: Hip_ctrl_offset
+    400030: Hip_jnt
+    400032: IK_Ctrl_grp
+    400034: JawA_ctrl
+    400036: JawA_ctrl_auto
+    400038: JawA_ctrl_offset
+    400040: JawA_jnt
+    400042: JawEnd_jnt
+    400044: L_BackLegAnkle_jnt
+    400046: L_BackLegEnd_jnt
+    400048: L_BackLegLower_jnt
+    400050: L_BackLegToes_jnt
+    400052: L_BackLegUpper_jnt
+    400054: L_EarA_ctrl
+    400056: L_EarA_ctrl_auto
+    400058: L_EarA_ctrl_offset
+    400060: L_EarA_jnt
+    400062: L_EarB_ctrl
+    400064: L_EarB_ctrl_auto
+    400066: L_EarB_ctrl_offset
+    400068: L_EarB_jnt
+    400070: L_EarEnd_jnt
+    400072: L_Eye_jnt
+    400074: L_EyeEnd_jnt
+    400076: L_EyeTarget_auto
+    400078: L_EyeTarget_ctrl
+    400080: L_EyeTarget_offset
+    400082: L_FrontLegAnkle_jnt
+    400084: L_FrontLegEnd_jnt
+    400086: L_FrontLegLower_jnt
+    400088: L_FrontLegToes_jnt
+    400090: L_FrontLegUpper_jnt
+    400092: L_Lowerlid_ctrl
+    400094: L_Lowerlid_ctrl_auto
+    400096: L_Lowerlid_ctrl_offset
+    400098: L_Lowerlid_jnt
+    400100: L_LowerlidEnd_jnt
+    400102: L_Upperlid_ctrl
+    400104: L_Upperlid_ctrl_auto
+    400106: L_Upperlid_ctrl_offset
+    400108: L_Upperlid_jnt
+    400110: L_UpperlidEnd_jnt
+    400112: NeckA_ctrl
+    400114: NeckA_ctrl_auto
+    400116: NeckA_ctrl_offset
+    400118: NeckA_jnt
+    400120: NeckB_ctrl
+    400122: NeckB_ctrl_auto
+    400124: NeckB_ctrl_offset
+    400126: NeckB_jnt
+    400128: NeckC_ctrl
+    400130: NeckC_ctrl_auto
+    400132: NeckC_ctrl_offset
+    400134: NeckC_jnt
+    400136: Nose_ctrl
+    400138: Nose_ctrl_auto
+    400140: Nose_ctrl_offset
+    400142: Nose_jnt
+    400144: NoseEnd_jnt
+    400146: R_BackLegAnkle_jnt
+    400148: R_BackLegEnd_jnt
+    400150: R_BackLegLower_jnt
+    400152: R_BackLegToes_jnt
+    400154: R_BackLegUpper_jnt
+    400156: R_EarA_ctrl
+    400158: R_EarA_ctrl_auto
+    400160: R_EarA_ctrl_offset
+    400162: R_EarA_jnt
+    400164: R_EarB_ctrl
+    400166: R_EarB_ctrl_auto
+    400168: R_EarB_ctrl_offset
+    400170: R_EarB_jnt
+    400172: R_EarEnd_jnt
+    400174: R_Eye_jnt
+    400176: R_EyeEnd_jnt
+    400178: R_EyeTarget_auto
+    400180: R_EyeTarget_ctrl
+    400182: R_EyeTarget_offset
+    400184: R_FrontLegAnkle_jnt
+    400186: R_FrontLegEnd_jnt
+    400188: R_FrontLegLower_jnt
+    400190: R_FrontLegToes_jnt
+    400192: R_FrontLegUpper_jnt
+    400194: R_Lowerlid_ctrl
+    400196: R_Lowerlid_ctrl_auto
+    400198: R_Lowerlid_ctrl_offset
+    400200: R_Lowerlid_jnt
+    400202: R_LowerlidEnd_jnt
+    400204: R_Upperlid_ctrl
+    400206: R_Upperlid_ctrl_auto
+    400208: R_Upperlid_ctrl_offset
+    400210: R_Upperlid_jnt
+    400212: R_UpperlidEnd_jnt
+    400214: SpineA_ctrl
+    400216: SpineA_ctrl_auto
+    400218: SpineA_ctrl_offset
+    400220: SpineA_jnt
+    400222: SpineB_ctrl
+    400224: SpineB_ctrl_auto
+    400226: SpineB_ctrl_offset
+    400228: SpineB_jnt
+    400230: SpineEnd_jnt
+    400232: Tail_CRV
+    400234: TailA_jnt
+    400236: TailB_jnt
+    400238: TailC_jnt
+    400240: TailD_jnt
+    400242: TailE_jnt
+    400244: TailEnd_jnt
+    400246: TongueA_ctrl
+    400248: TongueA_ctrl_auto
+    400250: TongueA_ctrl_offset
+    400252: TongueA_jnt
+    400254: TongueB_ctrl
+    400256: TongueB_ctrl_auto
+    400258: TongueB_ctrl_offset
+    400260: TongueB_jnt
+    400262: TongueEnd_jnt
+    7400000: Win
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Win
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/JawA_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/JawA_ctrl_offset/JawA_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/JawA_ctrl_offset/JawA_ctrl_auto/JawA_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/JawA_ctrl_offset/JawA_ctrl_auto/JawA_ctrl/TongueA_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/JawA_ctrl_offset/JawA_ctrl_auto/JawA_ctrl/TongueA_ctrl_offset/TongueA_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/JawA_ctrl_offset/JawA_ctrl_auto/JawA_ctrl/TongueA_ctrl_offset/TongueA_ctrl_auto/TongueA_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/JawA_ctrl_offset/JawA_ctrl_auto/JawA_ctrl/TongueA_ctrl_offset/TongueA_ctrl_auto/TongueA_ctrl/TongueB_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/JawA_ctrl_offset/JawA_ctrl_auto/JawA_ctrl/TongueA_ctrl_offset/TongueA_ctrl_auto/TongueA_ctrl/TongueB_ctrl_offset/TongueB_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/JawA_ctrl_offset/JawA_ctrl_auto/JawA_ctrl/TongueA_ctrl_offset/TongueA_ctrl_auto/TongueA_ctrl/TongueB_ctrl_offset/TongueB_ctrl_auto/TongueB_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/L_EarA_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/L_EarA_ctrl_offset/L_EarA_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/L_EarA_ctrl_offset/L_EarA_ctrl_auto/L_EarA_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/L_EarA_ctrl_offset/L_EarA_ctrl_auto/L_EarA_ctrl/L_EarB_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/L_EarA_ctrl_offset/L_EarA_ctrl_auto/L_EarA_ctrl/L_EarB_ctrl_offset/L_EarB_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/L_EarA_ctrl_offset/L_EarA_ctrl_auto/L_EarA_ctrl/L_EarB_ctrl_offset/L_EarB_ctrl_auto/L_EarB_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/L_Lowerlid_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/L_Lowerlid_ctrl_offset/L_Lowerlid_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/L_Lowerlid_ctrl_offset/L_Lowerlid_ctrl_auto/L_Lowerlid_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/L_Upperlid_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/L_Upperlid_ctrl_offset/L_Upperlid_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/L_Upperlid_ctrl_offset/L_Upperlid_ctrl_auto/L_Upperlid_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/Nose_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/Nose_ctrl_offset/Nose_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/Nose_ctrl_offset/Nose_ctrl_auto/Nose_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/R_EarA_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/R_EarA_ctrl_offset/R_EarA_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/R_EarA_ctrl_offset/R_EarA_ctrl_auto/R_EarA_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/R_EarA_ctrl_offset/R_EarA_ctrl_auto/R_EarA_ctrl/R_EarB_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/R_EarA_ctrl_offset/R_EarA_ctrl_auto/R_EarA_ctrl/R_EarB_ctrl_offset/R_EarB_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/R_EarA_ctrl_offset/R_EarA_ctrl_auto/R_EarA_ctrl/R_EarB_ctrl_offset/R_EarB_ctrl_auto/R_EarB_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/R_Lowerlid_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/R_Lowerlid_ctrl_offset/R_Lowerlid_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/R_Lowerlid_ctrl_offset/R_Lowerlid_ctrl_auto/R_Lowerlid_ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/R_Upperlid_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/R_Upperlid_ctrl_offset/R_Upperlid_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl/SpineA_ctrl_offset/SpineA_ctrl_auto/SpineA_ctrl/SpineB_ctrl_offset/SpineB_ctrl_auto/SpineB_ctrl/NeckA_ctrl_offset/NeckA_ctrl_auto/NeckA_ctrl/NeckB_ctrl_offset/NeckB_ctrl_auto/NeckB_ctrl/NeckC_ctrl_offset/NeckC_ctrl_auto/NeckC_ctrl/Head_ctrl_offset/Head_ctrl_auto/Head_ctrl/R_Upperlid_ctrl_offset/R_Upperlid_ctrl_auto/R_Upperlid_ctrl
+        weight: 1
+      - path: Hip_jnt
+        weight: 1
+      - path: Hip_jnt/L_BackLegUpper_jnt
+        weight: 1
+      - path: Hip_jnt/L_BackLegUpper_jnt/L_BackLegLower_jnt
+        weight: 1
+      - path: Hip_jnt/L_BackLegUpper_jnt/L_BackLegLower_jnt/L_BackLegAnkle_jnt
+        weight: 1
+      - path: Hip_jnt/L_BackLegUpper_jnt/L_BackLegLower_jnt/L_BackLegAnkle_jnt/L_BackLegToes_jnt
+        weight: 1
+      - path: Hip_jnt/L_BackLegUpper_jnt/L_BackLegLower_jnt/L_BackLegAnkle_jnt/L_BackLegToes_jnt/L_BackLegEnd_jnt
+        weight: 1
+      - path: Hip_jnt/R_BackLegUpper_jnt
+        weight: 1
+      - path: Hip_jnt/R_BackLegUpper_jnt/R_BackLegLower_jnt
+        weight: 1
+      - path: Hip_jnt/R_BackLegUpper_jnt/R_BackLegLower_jnt/R_BackLegAnkle_jnt
+        weight: 1
+      - path: Hip_jnt/R_BackLegUpper_jnt/R_BackLegLower_jnt/R_BackLegAnkle_jnt/R_BackLegToes_jnt
+        weight: 1
+      - path: Hip_jnt/R_BackLegUpper_jnt/R_BackLegLower_jnt/R_BackLegAnkle_jnt/R_BackLegToes_jnt/R_BackLegEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/L_FrontLegUpper_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/L_FrontLegUpper_jnt/L_FrontLegLower_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/L_FrontLegUpper_jnt/L_FrontLegLower_jnt/L_FrontLegAnkle_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/L_FrontLegUpper_jnt/L_FrontLegLower_jnt/L_FrontLegAnkle_jnt/L_FrontLegToes_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/L_FrontLegUpper_jnt/L_FrontLegLower_jnt/L_FrontLegAnkle_jnt/L_FrontLegToes_jnt/L_FrontLegEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/HeadEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/JawA_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/JawA_jnt/JawEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/JawA_jnt/TongueA_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/JawA_jnt/TongueA_jnt/TongueB_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/JawA_jnt/TongueA_jnt/TongueB_jnt/TongueEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_EarA_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_EarA_jnt/L_EarB_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_EarA_jnt/L_EarB_jnt/L_EarEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_Eye_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_Eye_jnt/L_EyeEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_Lowerlid_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_Lowerlid_jnt/L_LowerlidEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_Upperlid_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_Upperlid_jnt/L_UpperlidEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/Nose_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/Nose_jnt/NoseEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_EarA_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_EarA_jnt/R_EarB_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_EarA_jnt/R_EarB_jnt/R_EarEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_Eye_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_Eye_jnt/R_EyeEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_Lowerlid_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_Lowerlid_jnt/R_LowerlidEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_Upperlid_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_Upperlid_jnt/R_UpperlidEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/R_FrontLegUpper_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/R_FrontLegUpper_jnt/R_FrontLegLower_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/R_FrontLegUpper_jnt/R_FrontLegLower_jnt/R_FrontLegAnkle_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/R_FrontLegUpper_jnt/R_FrontLegLower_jnt/R_FrontLegAnkle_jnt/R_FrontLegToes_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/R_FrontLegUpper_jnt/R_FrontLegLower_jnt/R_FrontLegAnkle_jnt/R_FrontLegToes_jnt/R_FrontLegEnd_jnt
+        weight: 1
+      - path: Hip_jnt/Tail_CRV
+        weight: 1
+      - path: Hip_jnt/TailA_jnt
+        weight: 1
+      - path: Hip_jnt/TailA_jnt/TailB_jnt
+        weight: 1
+      - path: Hip_jnt/TailA_jnt/TailB_jnt/TailC_jnt
+        weight: 1
+      - path: Hip_jnt/TailA_jnt/TailB_jnt/TailC_jnt/TailD_jnt
+        weight: 1
+      - path: Hip_jnt/TailA_jnt/TailB_jnt/TailC_jnt/TailD_jnt/TailE_jnt
+        weight: 1
+      - path: Hip_jnt/TailA_jnt/TailB_jnt/TailC_jnt/TailD_jnt/TailE_jnt/TailEnd_jnt
+        weight: 1
+      - path: IK_Ctrl_grp
+        weight: 1
+      - path: IK_Ctrl_grp/EyeTarget_offset
+        weight: 1
+      - path: IK_Ctrl_grp/EyeTarget_offset/EyeTarget_auto
+        weight: 1
+      - path: IK_Ctrl_grp/EyeTarget_offset/EyeTarget_auto/EyeTarget_ctrl
+        weight: 1
+      - path: IK_Ctrl_grp/EyeTarget_offset/EyeTarget_auto/EyeTarget_ctrl/L_EyeTarget_offset
+        weight: 1
+      - path: IK_Ctrl_grp/EyeTarget_offset/EyeTarget_auto/EyeTarget_ctrl/L_EyeTarget_offset/L_EyeTarget_auto
+        weight: 1
+      - path: IK_Ctrl_grp/EyeTarget_offset/EyeTarget_auto/EyeTarget_ctrl/L_EyeTarget_offset/L_EyeTarget_auto/L_EyeTarget_ctrl
+        weight: 1
+      - path: IK_Ctrl_grp/EyeTarget_offset/EyeTarget_auto/EyeTarget_ctrl/R_EyeTarget_offset
+        weight: 1
+      - path: IK_Ctrl_grp/EyeTarget_offset/EyeTarget_auto/EyeTarget_ctrl/R_EyeTarget_offset/R_EyeTarget_auto
+        weight: 1
+      - path: IK_Ctrl_grp/EyeTarget_offset/EyeTarget_auto/EyeTarget_ctrl/R_EyeTarget_offset/R_EyeTarget_auto/R_EyeTarget_ctrl
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 2
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

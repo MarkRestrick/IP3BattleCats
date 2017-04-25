@@ -1,0 +1,373 @@
+fileFormatVersion: 2
+guid: 7cf39d1a6dfa5f348a542280ed2e2683
+timeCreated: 1491683862
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cat_SuperMover_Ctrl
+    100002: Cat_SuperMover_Ctrl_Auto
+    100004: Cat_SuperMover_Ctrl_Offset
+    100006: //RootNode
+    100008: Head_jnt
+    100010: HeadEnd_jnt
+    100012: Hip_ctrl
+    100014: Hip_ctrl_auto
+    100016: Hip_ctrl_offset
+    100018: Hip_jnt
+    100020: JawA_jnt
+    100022: JawEnd_jnt
+    100024: L_BackLegAnkle_jnt
+    100026: L_BackLegEnd_jnt
+    100028: L_BackLegLower_jnt
+    100030: L_BackLegToes_jnt
+    100032: L_BackLegUpper_jnt
+    100034: L_EarA_jnt
+    100036: L_EarB_jnt
+    100038: L_EarEnd_jnt
+    100040: L_Eye_jnt
+    100042: L_EyeEnd_jnt
+    100044: L_FrontLegAnkle_jnt
+    100046: L_FrontLegEnd_jnt
+    100048: L_FrontLegLower_jnt
+    100050: L_FrontLegToes_jnt
+    100052: L_FrontLegUpper_jnt
+    100054: L_Lowerlid_jnt
+    100056: L_LowerlidEnd_jnt
+    100058: L_Upperlid_jnt
+    100060: L_UpperlidEnd_jnt
+    100062: NeckA_jnt
+    100064: NeckB_jnt
+    100066: NeckC_jnt
+    100068: Nose_jnt
+    100070: NoseEnd_jnt
+    100072: R_BackLegAnkle_jnt
+    100074: R_BackLegEnd_jnt
+    100076: R_BackLegLower_jnt
+    100078: R_BackLegToes_jnt
+    100080: R_BackLegUpper_jnt
+    100082: R_EarA_jnt
+    100084: R_EarB_jnt
+    100086: R_EarEnd_jnt
+    100088: R_Eye_jnt
+    100090: R_EyeEnd_jnt
+    100092: R_FrontLegAnkle_jnt
+    100094: R_FrontLegEnd_jnt
+    100096: R_FrontLegLower_jnt
+    100098: R_FrontLegToes_jnt
+    100100: R_FrontLegUpper_jnt
+    100102: R_Lowerlid_jnt
+    100104: R_LowerlidEnd_jnt
+    100106: R_Upperlid_jnt
+    100108: R_UpperlidEnd_jnt
+    100110: SpineA_jnt
+    100112: SpineB_jnt
+    100114: SpineEnd_jnt
+    100116: Tail_CRV
+    100118: TailA_jnt
+    100120: TailB_jnt
+    100122: TailC_jnt
+    100124: TailD_jnt
+    100126: TailE_jnt
+    100128: TailEnd_jnt
+    100130: TongueA_jnt
+    100132: TongueB_jnt
+    100134: TongueEnd_jnt
+    400000: Cat_SuperMover_Ctrl
+    400002: Cat_SuperMover_Ctrl_Auto
+    400004: Cat_SuperMover_Ctrl_Offset
+    400006: //RootNode
+    400008: Head_jnt
+    400010: HeadEnd_jnt
+    400012: Hip_ctrl
+    400014: Hip_ctrl_auto
+    400016: Hip_ctrl_offset
+    400018: Hip_jnt
+    400020: JawA_jnt
+    400022: JawEnd_jnt
+    400024: L_BackLegAnkle_jnt
+    400026: L_BackLegEnd_jnt
+    400028: L_BackLegLower_jnt
+    400030: L_BackLegToes_jnt
+    400032: L_BackLegUpper_jnt
+    400034: L_EarA_jnt
+    400036: L_EarB_jnt
+    400038: L_EarEnd_jnt
+    400040: L_Eye_jnt
+    400042: L_EyeEnd_jnt
+    400044: L_FrontLegAnkle_jnt
+    400046: L_FrontLegEnd_jnt
+    400048: L_FrontLegLower_jnt
+    400050: L_FrontLegToes_jnt
+    400052: L_FrontLegUpper_jnt
+    400054: L_Lowerlid_jnt
+    400056: L_LowerlidEnd_jnt
+    400058: L_Upperlid_jnt
+    400060: L_UpperlidEnd_jnt
+    400062: NeckA_jnt
+    400064: NeckB_jnt
+    400066: NeckC_jnt
+    400068: Nose_jnt
+    400070: NoseEnd_jnt
+    400072: R_BackLegAnkle_jnt
+    400074: R_BackLegEnd_jnt
+    400076: R_BackLegLower_jnt
+    400078: R_BackLegToes_jnt
+    400080: R_BackLegUpper_jnt
+    400082: R_EarA_jnt
+    400084: R_EarB_jnt
+    400086: R_EarEnd_jnt
+    400088: R_Eye_jnt
+    400090: R_EyeEnd_jnt
+    400092: R_FrontLegAnkle_jnt
+    400094: R_FrontLegEnd_jnt
+    400096: R_FrontLegLower_jnt
+    400098: R_FrontLegToes_jnt
+    400100: R_FrontLegUpper_jnt
+    400102: R_Lowerlid_jnt
+    400104: R_LowerlidEnd_jnt
+    400106: R_Upperlid_jnt
+    400108: R_UpperlidEnd_jnt
+    400110: SpineA_jnt
+    400112: SpineB_jnt
+    400114: SpineEnd_jnt
+    400116: Tail_CRV
+    400118: TailA_jnt
+    400120: TailB_jnt
+    400122: TailC_jnt
+    400124: TailD_jnt
+    400126: TailE_jnt
+    400128: TailEnd_jnt
+    400130: TongueA_jnt
+    400132: TongueB_jnt
+    400134: TongueEnd_jnt
+    7400000: ButtDragLoop
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ButtDragLoop
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 83
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto
+        weight: 1
+      - path: Cat_SuperMover_Ctrl_Offset/Cat_SuperMover_Ctrl_Auto/Cat_SuperMover_Ctrl/Hip_ctrl_offset/Hip_ctrl_auto/Hip_ctrl
+        weight: 1
+      - path: Hip_jnt
+        weight: 1
+      - path: Hip_jnt/L_BackLegUpper_jnt
+        weight: 1
+      - path: Hip_jnt/L_BackLegUpper_jnt/L_BackLegLower_jnt
+        weight: 1
+      - path: Hip_jnt/L_BackLegUpper_jnt/L_BackLegLower_jnt/L_BackLegAnkle_jnt
+        weight: 1
+      - path: Hip_jnt/L_BackLegUpper_jnt/L_BackLegLower_jnt/L_BackLegAnkle_jnt/L_BackLegToes_jnt
+        weight: 1
+      - path: Hip_jnt/L_BackLegUpper_jnt/L_BackLegLower_jnt/L_BackLegAnkle_jnt/L_BackLegToes_jnt/L_BackLegEnd_jnt
+        weight: 1
+      - path: Hip_jnt/R_BackLegUpper_jnt
+        weight: 1
+      - path: Hip_jnt/R_BackLegUpper_jnt/R_BackLegLower_jnt
+        weight: 1
+      - path: Hip_jnt/R_BackLegUpper_jnt/R_BackLegLower_jnt/R_BackLegAnkle_jnt
+        weight: 1
+      - path: Hip_jnt/R_BackLegUpper_jnt/R_BackLegLower_jnt/R_BackLegAnkle_jnt/R_BackLegToes_jnt
+        weight: 1
+      - path: Hip_jnt/R_BackLegUpper_jnt/R_BackLegLower_jnt/R_BackLegAnkle_jnt/R_BackLegToes_jnt/R_BackLegEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/L_FrontLegUpper_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/L_FrontLegUpper_jnt/L_FrontLegLower_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/L_FrontLegUpper_jnt/L_FrontLegLower_jnt/L_FrontLegAnkle_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/L_FrontLegUpper_jnt/L_FrontLegLower_jnt/L_FrontLegAnkle_jnt/L_FrontLegToes_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/L_FrontLegUpper_jnt/L_FrontLegLower_jnt/L_FrontLegAnkle_jnt/L_FrontLegToes_jnt/L_FrontLegEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/HeadEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/JawA_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/JawA_jnt/JawEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/JawA_jnt/TongueA_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/JawA_jnt/TongueA_jnt/TongueB_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/JawA_jnt/TongueA_jnt/TongueB_jnt/TongueEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_EarA_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_EarA_jnt/L_EarB_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_EarA_jnt/L_EarB_jnt/L_EarEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_Eye_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_Eye_jnt/L_EyeEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_Lowerlid_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_Lowerlid_jnt/L_LowerlidEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_Upperlid_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/L_Upperlid_jnt/L_UpperlidEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/Nose_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/Nose_jnt/NoseEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_EarA_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_EarA_jnt/R_EarB_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_EarA_jnt/R_EarB_jnt/R_EarEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_Eye_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_Eye_jnt/R_EyeEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_Lowerlid_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_Lowerlid_jnt/R_LowerlidEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_Upperlid_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/NeckA_jnt/NeckB_jnt/NeckC_jnt/Head_jnt/R_Upperlid_jnt/R_UpperlidEnd_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/R_FrontLegUpper_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/R_FrontLegUpper_jnt/R_FrontLegLower_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/R_FrontLegUpper_jnt/R_FrontLegLower_jnt/R_FrontLegAnkle_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/R_FrontLegUpper_jnt/R_FrontLegLower_jnt/R_FrontLegAnkle_jnt/R_FrontLegToes_jnt
+        weight: 1
+      - path: Hip_jnt/SpineA_jnt/SpineB_jnt/SpineEnd_jnt/R_FrontLegUpper_jnt/R_FrontLegLower_jnt/R_FrontLegAnkle_jnt/R_FrontLegToes_jnt/R_FrontLegEnd_jnt
+        weight: 1
+      - path: Hip_jnt/Tail_CRV
+        weight: 1
+      - path: Hip_jnt/TailA_jnt
+        weight: 1
+      - path: Hip_jnt/TailA_jnt/TailB_jnt
+        weight: 1
+      - path: Hip_jnt/TailA_jnt/TailB_jnt/TailC_jnt
+        weight: 1
+      - path: Hip_jnt/TailA_jnt/TailB_jnt/TailC_jnt/TailD_jnt
+        weight: 1
+      - path: Hip_jnt/TailA_jnt/TailB_jnt/TailC_jnt/TailD_jnt/TailE_jnt
+        weight: 1
+      - path: Hip_jnt/TailA_jnt/TailB_jnt/TailC_jnt/TailD_jnt/TailE_jnt/TailEnd_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 2
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
